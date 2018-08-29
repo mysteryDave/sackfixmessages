@@ -10,7 +10,7 @@ lazy val commonSettings = Seq(
     libraryDependencies += "org.mockito" % "mockito-all" % "1.10.19"  % "test",
 	libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3",
 	libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3" % "runtime", // without %runtime did not work in intellij
-	libraryDependencies += "com.typesafe" % "config" % "1.3.2",
+	libraryDependencies += "com.typesafe" % "config" % "1.3.3",
 	libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.5.14",
 	libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % "2.5.14",
 )
